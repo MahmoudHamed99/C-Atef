@@ -566,7 +566,7 @@ header .options img {
 .plans .plans-cont {
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     gap: 30px;
 }
 .plans .plans-cont .plan {
@@ -652,7 +652,7 @@ header .options img {
     position: relative;
     margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     gap: 30px;
     text-align: center;
 }
