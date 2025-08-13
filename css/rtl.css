@@ -1,0 +1,34 @@
+/* Start Sub-Nav */
+.sub-nav .close {
+    left: 10px;
+}
+.sub-nav li::before {
+    right: 0;
+}
+/* End Sub-Nav */
+
+header .main-nav li::before {
+    right: 0;
+}
+
+/* Start Landing */
+.landing .title h2 span::before {
+    border-left: 2px solid var(--main-color);
+}
+/* End Landing */
+
+/* Start Plans */
+.plans .plans-cont .plan .price {
+    margin-right: 52px;
+}
+.plans .plans-cont .plan .price::before {
+    right: -52px;
+}
+.plans .plans-cont .plan a.reserve {
+    right: 8%;
+}
+.plans .plans-cont .plan a.details {
+    left: 8%;
+    right: auto;
+}
+/* End Plans */
